@@ -12,7 +12,7 @@ with user interaction. It shows differences first and if user decides to proceed
 
 ## Installation
 
-Use [krew](https://sigs.k8s.io/krew) plugin manager to install,
+Use [krew](https://sigs.k8s.io/krew) plugin manager to install;
 
 ```shell script
 wget https://github.com/ardaguclu/kubectl-dapply/blob/main/.krew.yaml
