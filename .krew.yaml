@@ -14,27 +14,27 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://github.com/ardaguclu/kubectl-dapply/releases/download/v0.1.0/kubectl-dapply_v0.24.3_darwin_amd64.tar.gz
+      uri: https://github.com/ardaguclu/kubectl-dapply/releases/download/v0.24.3/kubectl-dapply_v0.24.3_darwin_amd64.tar.gz
       sha256: 84aed5f20c014b4f85bd6165801d26730885ffbb126b64b0ddbcdf3209f61dcb
       bin: kubectl-dapply
     - selector:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://github.com/ardaguclu/kubectl-dapply/releases/download/v0.1.0/kubectl-dapply_v0.24.3_darwin_arm64.tar.gz
+      uri: https://github.com/ardaguclu/kubectl-dapply/releases/download/v0.24.3/kubectl-dapply_v0.24.3_darwin_arm64.tar.gz
       sha256: 1bee7715a08a78c738259b07074181b123c6a4f9a88d61e8607a67e6b0e94000
       bin: kubectl-dapply
     - selector:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://github.com/ardaguclu/kubectl-dapply/releases/download/v0.1.0/kubectl-dapply_v0.24.3_linux_amd64.tar.gz
+      uri: https://github.com/ardaguclu/kubectl-dapply/releases/download/v0.24.3/kubectl-dapply_v0.24.3_linux_amd64.tar.gz
       sha256: 603d05de68cda99248334d2a7145382656d5fdfd31a24af01d3c09ec781d839d
       bin: kubectl-dapply
     - selector:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://github.com/ardaguclu/kubectl-dapply/releases/download/v0.0.2/kubectl-dapply_v0.24.3_windows_amd64.tar.gz
+      uri: https://github.com/ardaguclu/kubectl-dapply/releases/download/v0.24.3/kubectl-dapply_v0.24.3_windows_amd64.tar.gz
       sha256: 0b42411d0b0dceef03f1273f994f7c8cc6a69f7329e94449d404f49e81ee7528
       bin: kubectl-dapply.exe
