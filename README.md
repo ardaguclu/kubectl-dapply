@@ -1,6 +1,6 @@
 # kubectl-dapply
 
-This plugin wraps `kubectl apply` with showing differences that will be applied and asking user to proceed to apply or not prior.
+This plugin wraps `kubectl apply` with showing differences that will be applied and asking user to proceed or not prior to apply.
 
 [![GoDoc](https://godoc.org/github.com/ardaguclu/kubectl-dapply?status.svg)](https://godoc.org/github.com/ardaguclu/kubectl-dapply)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ardaguclu/kubectl-dapply)](https://goreportcard.com/report/github.com/ardaguclu/kubectl-dapply)
