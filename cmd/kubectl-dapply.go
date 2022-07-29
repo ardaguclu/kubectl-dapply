@@ -17,18 +17,18 @@ limitations under the License.
 package main
 
 import (
+	"github.com/ardaguclu/kubectl-dapply/pkg/cmd"
 	"os"
 
-	"github.com/ardaguclu/kubectl-pod-node-matrix/pkg/cmd"
 	"github.com/spf13/pflag"
 	"k8s.io/cli-runtime/pkg/genericclioptions"
 )
 
 func main() {
-	flags := pflag.NewFlagSet("kubectl-pod-node-matrix", pflag.ExitOnError)
+	flags := pflag.NewFlagSet("kubectl-dapply", pflag.ExitOnError)
 	pflag.CommandLine = flags
 
-	root := cmd.NewCmdPodNodeMatrix(genericclioptions.IOStreams{In: os.Stdin, Out: os.Stdout, ErrOut: os.Stderr})
+	root := cmd.NewCmdDiffApply(genericclioptions.IOStreams{In: os.Stdin, Out: os.Stdout, ErrOut: os.Stderr})
 	if err := root.Execute(); err != nil {
 		os.Exit(1)
 	}
