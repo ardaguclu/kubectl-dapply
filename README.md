@@ -16,7 +16,7 @@ Use [krew](https://sigs.k8s.io/krew) plugin manager to install;
 
 ```shell script
 wget https://github.com/ardaguclu/kubectl-dapply/blob/main/.krew.yaml
-kubectl krew install dapply --manifest=.krew.yaml
+kubectl krew install --manifest=.krew.yaml
 kubectl dapply --help
 ```
 
